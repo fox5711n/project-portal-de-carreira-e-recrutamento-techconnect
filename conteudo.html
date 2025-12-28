@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechConnect Careers</title>
+    <link rel="stylesheet" href="my.css">
+<link href="img_foto/TechConnect-Careers-1762479531552/icon do saite.png" rel="icon">
+</head>
+
+<body class="header-bg">
+        <div class="content-hero">
+            <header>
+                <h1 class="sr-only">TechConnect Careers</h1>
+            </header>
+        </div>
+    
+    <main>
+
+    <!-- Botão Sair -->
+    <button id="logout" title="Sair da conta">Sair</button>
+
+    <!-- Informações do Usuário -->
+    <div class="user-info">
+        <p id="mensagem"></p>
+    </div>
+
+    <!-- Descrição do Conteúdo -->
+    <section class="content-description">
+        <div class="content-row">
+            <div class="content-text">
+                <h3>Na TechConnect Careers, desenvolvemos e mantemos um portal de carreira completo</h3>
+
+                <h3>O que fazemos?</h3>
+
+                <ul>
+                    <li>Criar perfis profissionais completos</li>
+                    <li>Acompanhar vagas abertas</li>
+                    <li>Candidatar-se em poucos cliques</li>
+                    <li>Receber recomendações personalizadas</li>
+                </ul>
+
+                <h4>TechConnect Careers pode:</h4>
+                <ul>
+                    <li>Publicar oportunidades</li>
+                    <li>Gerenciar processos seletivos</li>
+                    <li>Encontrar talentos de forma rápida e certeira</li>
+                    <li>Tudo isso em um ambiente moderno, intuitivo e 100% online.</li>
+                </ul>
+
+                <nav>
+                    <ul>
+                        <li><button id="btnSobre">Sobre</button></li>
+                        <li><button id="btnContato">Contato</button></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <aside class="content-aside image-container">
+                <img src="img_foto/TechConnect-Careers-1762479531552/ex foto 01.png" alt="Oportunidades TechConnect">
+            </aside>
+        </div>
+    </section>
+
+    <section id="sobre" class="modal">
+
+        <div class="modal-content">
+            <span class="fechar">&times;</span>
+            <h2>Sobre a Empresa</h2>
+            <p>A TechConnect Careers nasceu com o propósito de conectar talentos e empresas de forma simples, moderna e inteligente.
+Somos uma plataforma de recrutamento digital e tecnologia, dados e experiência humana para criar uma jornada profissional mais ágil e personalizada.Nosso foco é transformar o “Trabalhe Conosco” tradicional em uma experiência interativa de carreira, onde cada candidato pode se apresentar de forma autêntica e encontrar o profissional ideal com poucos cliques.</p>
+            <p>Estamos comprometidos em ajudar você a alcançar seus objetivos profissionais.</p>
+            <button id="btnFechar">Fechar</button>
+        </div>
+
+     </section>
+
+    <section id="contato" class="modal">
+        <div class="modal-content">
+            <span class="fechar">&times;</span>
+            <h2>Contato</h2>
+            <p>Para falar conosco, envie um e-mail para <a href="mailto:techconnect.careers@gmail.com">techconnect.careers@gmail.com</a> ou ligue para (11) 3456-7890.</p>
+            <button id="btnFecharContato">Fechar</button>
+        </div>
+        </section>
+
+    <!-- Busca, filtros e resumo -->
+    <div class="filtros-resumo">
+        <div class="barra-filtro">
+            <input type="search" id="buscaVagas" placeholder="Buscar vagas, cargo, descrição, empresa...">
+            <select id="filtroLocal" aria-label="Filtrar por Local">
+                <option value="">Todos os Locais</option>
+                <option value="Remoto">Remoto</option>
+                <option value="Presencial">Presencial</option>
+                <option value="Híbrido">Híbrido</option>
+            </select>
+            <select id="filtroEmpresa" aria-label="Filtrar por Empresa">
+                <option value="">Todas as Empresas</option>
+            </select>
+        </div>
+
+        <div id="resumoVagas"></div>
+    </div>
+
+        <section id="vagas">
+        <h2>Vagas de Emprego</h2>
+        <table>
+            <tr>
+                <th>Cargo</th>
+                <th>Descrição</th>
+                <th>Empresa</th>
+                <th>Requisitos</th>
+                <th>Local</th> 
+                <th>Salário</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>Desenvolvedor</td>
+                <td>Desenvolvimento de software</td>
+                <td>Tech Solutions</td>
+                <td>Conhecimento em JavaScript</td>
+                <td>Remoto</td>
+                <td>R$ 8.000,00</td>
+            </tr>
+            <tr>
+                <td>Analista de Dados</td>
+                <td>Análise de dados e relatórios</td>
+                <td>Data Insights</td>
+                <td>Excel avançado</td>
+                <td>Presencial</td>
+                <td>R$ 6.500,00</td>
+            </tr>
+            <tr>
+                <td>Gerente de Projetos</td>
+                <td>Gestão de equipes e projetos</td>
+                <td>InnovaTech</td>
+                <td>Experiência em metodologias ágeis</td>
+                <td>Presencial</td>
+                <td>R$ 9.000,00</td>
+            </tr>
+            <tr>
+                <td>Designer Gráfico</td>
+                <td>Criação de materiais visuais</td>
+                <td>Creative Studio</td>
+                <td>Adobe Photoshop e Illustrator</td>
+                <td>Remoto</td>
+                <td>R$ 5.500,00</td>
+            </tr>
+            <tr>
+                <td>Especialista em Marketing Digital</td>
+                <td>Planejamento e execução de campanhas</td>
+                <td>MarketPro</td>
+                <td>SEO e Google Ads</td>
+                <td>Híbrido</td>
+                <td>R$ 7.000,00</td>
+            </tr>
+            <tr>
+                <td>Suporte Técnico</td>
+                <td>Atendimento ao cliente e resolução de problemas</td>
+                <td>HelpDesk Corp</td>
+                <td>Conhecimento em redes e sistemas operacionais</td>
+                <td>Presencial</td>
+                <td>R$ 4.500,00</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Modal de candidatura rápida -->
+    <div id="modalCandidatar" class="modal">
+        <div class="modal-content">
+            <span class="fechar">&times;</span>
+            <h2>Candidatar-se</h2>
+            <form id="formCandidatar">
+                <input type="hidden" id="vagaTitulo">
+                <div class="form-group">
+                    <label for="candNome">Nome:</label>
+                    <input type="text" id="candNome" required>
+                </div>
+                <div class="form-group">
+                    <label for="candEmail">Email:</label>
+                    <input type="email" id="candEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="candMsg">Mensagem (opcional):</label>
+                    <textarea id="candMsg" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Enviar Candidatura</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Seção de Vídeo -->
+        <section class="video-section">
+            <video controls autoplay muted loop>
+                <source src="video/691a7495a09f2.mp4" type="video/mp4">
+                Seu navegador não suporta a reprodução de vídeos.
+            </video>
+        </section>
+    
+
+    <!-- Área pública: Agenda de Eventos -->
+    <section id="agenda">
+        <h2>Agenda de Eventos</h2>
+        <div id="listaEventos">
+
+            <article class="evento" data-id="1">
+                <h3>Meetup: Inovações em JS</h3>
+                <p><strong>Palestrantes:</strong> Ana Silva, João Pereira</p>
+                <p><strong>Data / Hora:</strong> 20/11/2025 - 19:00</p>
+                <p><strong>Local:</strong> Auditório TechConnect / <a href="#">Link virtual</a></p>
+                <button class="btnInscrever" data-evento-id="1">Inscrever-se</button>
+            </article>
+            <article class="evento" data-id="2">
+                <h3>Workshop: Data Science na prática</h3>
+                <p><strong>Palestrante:</strong> Carla Mendes</p>
+                <p><strong>Data / Hora:</strong> 05/12/2025 - 14:00</p>
+                <p><strong>Local:</strong> Sala 3 - Centro de Convenções / <a href="#">Link virtual</a></p>
+                <button class="btnInscrever" data-evento-id="2">Inscrever-se</button>
+            </article>
+            <article class="evento" data-id="3">
+                <h3>Seminário: Futuro do Trabalho Remoto</h3>
+                <p><strong>Palestrantes:</strong> Lucas Andrade, Mariana Costa</p>
+                <p><strong>Data / Hora:</strong> 15/12/2025 - 10:00</p>
+                <p><strong>Local:</strong> Auditório Central / <a href="#">Link virtual</a></p>
+                <button class="btnInscrever" data-evento-id="3">Inscrever-se</button>
+            </article>
+            <article class="evento" data-id="4">
+                <h3>Painel: Carreiras em Tech em 2026</h3>
+                <p><strong>Palestrantes:</strong> Roberto Lima, Fernanda Souza</p>
+                <p><strong>Data / Hora:</strong> 22/12/2025 - 16:00</p>
+                <p><strong>Local:</strong> Plataforma Online / <a href="#">Link virtual</a></p>
+                <button class="btnInscrever" data-evento-id="4">Inscrever-se</button>
+            </article>
+            <article class="evento" data-id="5">
+                <h3>Webinar: Tendências em UX/UI</h3>
+                <p><strong>Palestrante:</strong> Beatriz Rocha</p>
+                <p><strong>Data / Hora:</strong> 10/01/2026 - 11:00</p>
+                <p><strong>Local:</strong> Plataforma Online / <a href="#">Link virtual</a></p>
+                <button class="btnInscrever" data-evento-id="5">Inscrever-se</button>
+            </article>
+            <article class="evento" data-id="6">
+                <h3>Curso: Introdução ao Cloud Computing</h3>
+                <p><strong>Palestrante:</strong> Eduardo Silva</p>
+                <p><strong>Data / Hora:</strong> 20/01/2026 - 09:00</p>
+                <p><strong>Local:</strong> Plataforma Online / <a href="#">Link virtual</a></p>
+                <button class="btnInscrever" data-evento-id="6">Inscrever-se</button>
+            </article>
+
+
+        </div>
+    </section>
+
+    <!-- Modal de inscrição em evento -->
+    <div id="modalEvento" class="modal">
+        <div class="modal-content">
+            <span class="fechar">&times;</span>
+            <h2>Inscrição no Evento</h2>
+            <form id="formEvento">
+                <input type="hidden" id="eventoId">
+                <div class="form-group">
+                    <label for="evtNome">Nome:</label>
+                    <input type="text" id="evtNome" required>
+                </div>
+                <div class="form-group">
+                    <label for="evtEmail">Email:</label>
+                    <input type="email" id="evtEmail" required>
+                </div>
+                <button type="submit" class="btn-submit">Confirmar Inscrição</button>
+            </form>
+        </div>
+    </div>
+
+    <button id="backToTop" title="Voltar ao topo">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
