@@ -44,7 +44,29 @@ O objetivo deste projeto foi aplicar, na prática, os conhecimentos adquiridos e
 ├── css/            # Arquivos de estilização
 ├── js/             # Scripts JavaScript
 ├── img/            # Imagens e recursos visuais
+├── video/          # Video e recursos visuais
 ├── php/            # Scripts PHP e processamento de dados
 ├── index.html      # Página inicial
+├── index.html      # Página secundária
 ├── README.md       # Documentação do projeto
 └── LICENSE         # Licença do projeto
+
+```
+
+## 📚 Aprendizados e Evolução Técnica
+
+Durante o desenvolvimento deste projeto, foi possível:
+
+Consolidar a base em desenvolvimento web full stack
+
+Compreender melhor o fluxo entre front-end e back-end
+
+Aprender a estruturar projetos web de forma organizada
+
+Aplicar boas práticas de legibilidade e manutenção de código
+
+Desenvolver uma visão mais próxima das exigências do mercado
+
+## 📌 Considerações Finais
+
+Este projeto representa um passo importante na minha formação em desenvolvimento web, unindo teoria e prática em um cenário próximo ao real. Ele faz parte do meu processo contínuo de aprendizado e evolução técnica na área de tecnologia.
