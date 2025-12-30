@@ -40,16 +40,16 @@ O objetivo deste projeto foi aplicar, na prática, os conhecimentos adquiridos e
 ## 📂 Estrutura do Projeto
 
 ```text
-/
-├── css/            # Arquivos de estilização
-├── js/             # Scripts JavaScript
-├── img/            # Imagens e recursos visuais
-├── video/          # Video e recursos visuais
-├── php/            # Scripts PHP e processamento de dados
+
+├──LICENSE         # Licença do projeto
+├── README.md       # Documentação do projeto
 ├── index.html      # Página inicial
 ├── index.html      # Página secundária
-├── README.md       # Documentação do projeto
-└── LICENSE         # Licença do projeto
+├── img/            # Imagens e recursos visuais
+├── css/            # Arquivos de estilização
+├── php/            # Scripts PHP e processamento de dados
+├── js/             # Scripts JavaScript
+└── video/          # Video e recursos visuais
 
 ```
 
